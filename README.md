@@ -16,8 +16,8 @@ Field_Fileクラスを**Field_File ff;**と宣言したとき
 また、ファイルの入力時、各要素はField_Fileクラス内の変数に代入されます。  
  int **field_size_x** : フィールドの横方向の大きさ  
  int **field_size_y** : フィールドの縦方向の大きさ  
- int **tile_points**[12][12] : 各マスの値 （-16~16）  
- int **tile_status**[12][12] : 各マスの状態（色）（0~2 0:白,1:赤,2:青）  
+ int **tile_points**[12][12] : 各マスの値 （-16〜16）  
+ int **tile_status**[12][12] : 各マスの状態（色）（0〜2 0:白,1:赤,2:青）  
  Agent **red**[2][SEARCHING_TURNS] : 赤チームのエージェントの状態（Agent構造体については後述）  
  Agent **blue**[2][SEARCHING_TURNS] : 青チームのエージェントの状態  
 出力時も同じ変数を参照します。  
